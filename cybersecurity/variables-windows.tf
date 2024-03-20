@@ -1,6 +1,6 @@
 variable "windows_ami" {
   type = string
-  default = "ami-0c2b0d3fb02824d92"
+  default = "ami-0f9c44e98edf38a2b"
 }
 
 variable "windows_type" {

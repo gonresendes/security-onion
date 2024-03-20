@@ -1,6 +1,6 @@
 resource "aws_instance" "winsrv" {
   ami                                  = var.windows_ami
-  instance_type                        = "t2.small"
+  instance_type                        = "t2.medium"
   key_name                             = aws_key_pair.CyberSecurity.key_name
   network_interface {
     device_index         = 0
